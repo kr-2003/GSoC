@@ -1,4 +1,4 @@
-# GSOC'23 Proposal - Sugarlabs
+## GSOC'23 Proposal - Sugarlabs
 
 ### Sugarizer VueJS Core
 
@@ -28,3 +28,26 @@
         *   [https://github.com/kr-2003/sugarizer_personal_vuej](https://github.com/kr-2003/sugarizer_personal_vuejs)s
     *   I am Abhinav Kumar, a current undergraduate pursuing a degree in Computer Science from IIT Indore in India. My passions lie in software development, competitive programming, and cybersecurity. Throughout the past year, I have been refining my skills in software development and data structures and algorithms. More recently, I have started to contribute to open-source projects, with a specific interest in cybersecurity. I am well-versed in various tech stacks, including VueJS, ReactJS, NextJS, Javascript, ExpressJS, FastAPI, and MongoDB. I have built an online gaming website with five multiplayer games, heavily utilizing Javascript, DOM manipulation, and Websockets. I have designed the logic behind these games, providing me with a wealth of experience with Vanilla JS and DOM manipulation. Furthermore, I have developed multiple websites using ReactJS and VueJS, giving me hands-on experience with JS frameworks.
     *   Since I already have good experience with Javascript, Typescript, VueJS and I have also contributed to open source projects based on these tech stacks, I find myself suitable for this project.
+
+## Overview of Project:
+
+Sugarizer Core UI rely on EnyoJS, a deprecated frameworks initially developed for WebOS.  
+The idea of this new project is to reimplement a part of Sugarizer Core UI using VueJS components.
+
+**Tasks**
+
+Use Sugarizer VueJS components and Sugarizer Server API to implement screens:
+
+*   First screen
+*   Login
+*   Home view
+*   List view
+*   Settings
+
+Each screen should integrate unit testing and code coverage.
+
+## Details:
+
+This project requires us to implement Sugarizer Core UI components in VueJS components. I have already tried to do some work.  [Click here](https://github.com/kr-2003/sugarizer_personal_vuejs) for the repo. The file structure is like this:
+
+![](https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/2f2d497b35f880e50a0ce6654fdcc3bea1a7269883cafcde.png)
