@@ -52,20 +52,17 @@ This project requires us to implement Sugarizer Core UI components in VueJS comp
 
 ![](https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/2f2d497b35f880e50a0ce6654fdcc3bea1a7269883cafcde.png)
 
-The project is using a build setup based on [Vite](https://vitejs.dev/) and allow us to use Vue [Single-File Components](https://vuejs.org/guide/scaling-up/sfc.html) (SFCs).
-
-I have added Vitest for unit testing.
-
-Also added Cypress for E2E testing.
-
-All the icons for the project are under “/src/assets/icons”.
+*   The project is using a build setup based on [Vite](https://vitejs.dev/) and allowing us to use Vue [Single-File Components](https://vuejs.org/guide/scaling-up/sfc.html) (SFCs).
+*   I have added Vitest for unit testing.
+*   Also added Cypress for E2E testing.
+*   All the icons for the project are under “/src/assets/icons”.
 
 **First Screen**
 
 ![](https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/animations/baf6a1a33467c2d498a15ef005f8ee82648cb25e1fcd142a.gif)
 
-All the components of firstScreen are under “/src/components/firstScreen”.   
-The page for firstScreen is under “src/views/FirstScreenView.vue”.
+*   All the components of firstScreen are under “/src/components/firstScreen”. 
+*   The page for firstScreen is under “src/views/FirstScreenView.vue”.
 
 ```javascript
 <template>
@@ -93,3 +90,5 @@ import LoginView from '../components/firstScreen/LoginView.vue'
 
 </style>
 ```
+
+*   \<router-link> is used for navigating through links.
