@@ -1,16 +1,6 @@
-# Proposal Template:
-A good proposal is structured, complete and backed by your code contributions ;-). We want you to be honest and realistic while writing your proposal.<br>
-You must also use [Google's guide to Writing a Proposal](https://google.github.io/gsocguides/student/writing-a-proposal)
+# Sugarizer VueJS Core:
+## GSoC’22 Proposal - Sugarlabs 
 
-It's good to have a well spaced timeline with doable goals for each week and buffers for each task. If you end up not being able to complete what you proposed, then we might consider failing your project.
-
-```
-Hofstadter's Law: It takes longer than you expect, even when you take into account Hofstadter's Law
-```
-
-Finish writing your proposal early so that you can get it reviewed by your mentors and the community, before the deadline. They can give you valuable suggestions on your timeline and project details.
-
-This is a sample template. You can add other sections which you think add value to your proposal
 
 ---------------
 ## Basic Details
