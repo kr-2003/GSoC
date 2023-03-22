@@ -1,8 +1,9 @@
 # Sugarizer VueJS Core:
+---------------
 ## GSoC’22 Proposal - Sugarlabs 
 
 
----------------
+
 ## Basic Details
  - Full Name
  - Email and GitHub Username
