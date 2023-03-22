@@ -51,3 +51,45 @@ Each screen should integrate unit testing and code coverage.
 This project requires us to implement Sugarizer Core UI components in VueJS components. I have already tried to do some work.  [Click here](https://github.com/kr-2003/sugarizer_personal_vuejs) for the repo. The file structure is like this:
 
 ![](https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/2f2d497b35f880e50a0ce6654fdcc3bea1a7269883cafcde.png)
+
+The project is using a build setup based on [Vite](https://vitejs.dev/) and allow us to use Vue [Single-File Components](https://vuejs.org/guide/scaling-up/sfc.html) (SFCs).
+
+I have added Vitest for unit testing.
+
+Also added Cypress for E2E testing.
+
+All the icons for the project are under “/src/assets/icons”.
+
+**First Screen**
+
+![](https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/animations/baf6a1a33467c2d498a15ef005f8ee82648cb25e1fcd142a.gif)
+
+All the components of firstScreen are under “/src/components/firstScreen”.   
+The page for firstScreen is under “src/views/FirstScreenView.vue”.
+
+```javascript
+<template>
+  <main>
+    
+    <div class="firstScreen-menu">
+      <NewUserView></NewUserView>
+      <router-link :to="{name: 'login'}"><LoginView></LoginView></router-link>
+    </div>
+  </main>
+</template>
+
+<script setup>
+import NewUserView from '../components/firstScreen/NewUserView.vue'
+import LoginView from '../components/firstScreen/LoginView.vue'
+</script>
+
+<style scoped>
+.firstScreen-menu {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
+}
+
+</style>
+```
